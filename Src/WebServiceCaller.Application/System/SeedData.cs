@@ -30,10 +30,10 @@ namespace WebServiceCaller.Application.System
                     ServiceType = ServiceType.Smtp,
                     Setting = JsonConvert.SerializeObject(new EmailSetting
                     {
-                        From = "nimanosrati93@hotmail.com",
+                        From = "yourmail@hotmail.com",
                         Port = 587,
-                        UserName = "nimanosrati93@hotmail.com",
-                        Password = "0016057015nosrati@",
+                        UserName = "yourmail@hotmail.com",
+                        Password = "yourPassword",
                         Host = "smtp.live.com",
                         EnableSsl = true
                     })
